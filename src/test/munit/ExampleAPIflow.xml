@@ -8,7 +8,7 @@
 		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
 		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
 	<munit:config name="ExampleAPIflow.xml" />
-	<munit:test name="ExampleAPIflow-suite-ExampleAPIFlowTest" doc:id="2823d0af-25b3-48fc-bcdb-06d913da203c" description="Test">
+	<munit:test name="ExampleAPIflow-suite-ExampleAPIFlowTest1" doc:id="2823d0af-25b3-48fc-bcdb-06d913da203c" description="Test">
 		<munit:execution >
 			<flow-ref doc:name="Flow-ref to ExampleAPIFlow" doc:id="3209ae09-2bde-4836-8c31-9a96c7f44b3c" name="ExampleAPIFlow"/>
 		</munit:execution>
